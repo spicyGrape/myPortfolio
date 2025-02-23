@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Shuaiting",
+  lastName: "Li",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "BSc Computer Science Student",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Europe/London", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Mandarine"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,8 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally share interesting thoughts about tech and my life.
     </>
   ),
 };
@@ -29,22 +28,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/spicyGrape",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/shuaiting-li-7589a02b6/",
   },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
+  //{
+  //  name: "X",
+  //  icon: "x",
+  //  link: "",
+  //},
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "lishuaiting2003@outlook.com",
   },
 ];
 
@@ -52,11 +51,12 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>CS Student at UCL</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Shuaiting,
+      <br /> a BSc computer science student at <InlineCode>UCL</InlineCode>
+      <br /> where I explore diverse areas of computer science and apply them in practice.
     </>
   ),
 };
@@ -73,7 +73,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -81,9 +81,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Shuaiting is a first-year BSc Computer Science student at UCL with a wide-ranging interest in areas
+        such as artificial intelligence, web development, and computer architechture. Shuaiting enjoys working on
+        projects that challenge him to learn new skills and apply his knowledge in practical ways.
       </>
     ),
   },
