@@ -92,41 +92,53 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "UCL",
+        timeframe: "September 2024 - December 2024",
+        role: "Transition mentor",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Led weekly meetings to support and guide eight new students in UCL's Foundation Program,
+            addressing challenges and offering tailored advice.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          //{
+          //  src: "/images/projects/project-01/cover-01.jpg",
+          //  alt: "Once UI Project",
+          //  width: 16,
+          //  height: 9,
+          //},
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Getac",
+        timeframe: "July 2024 - August 2024",
+        role: "Assistant Engineer Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Collaborated with senior engineers with developing, testing and deploying generative AI models,
+            to optimize administrative workflow for 30+ non-tech administrative staffs
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Utilized WinForm with C# for UI and Python for backend interaction with OpenAI API and other APIs
+          </>,
+          <>
+            Communicated with non-tech clients and about demands and translated into developing documentations
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Student Union UCL",
+        timeframe: "September 2023 - June 2024",
+        role: "Academic Representitive",
+        achievements: [
+          <>
+            Collected and organized feedback from 20+ cohorts about the Mathematics course
+          </>,
+          <>
+            Spoke at meetings every term to convey collected feedback to the UCL teaching team
           </>,
         ],
         images: [],
@@ -138,13 +150,13 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University College London",
+        description: <>BSc Computer Science</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+      //{
+      //  name: "Build the Future",
+      //  description: <>Studied online marketing and personal branding.</>,
+      //},
     ],
   },
   technical: {
@@ -152,36 +164,67 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Python",
+        description: <>Able to prototype with Python at a fast pace.</>,
+        images:[],
+      },
+      {
+        title: "Numpy/Pandas/Matplot",
+        description: <>Able to perform data analysis and visualiztion with Python.</>,
+        images:[],
+      },
+      {
+        title: "Java",
+        description: <>Able to write Onject-Oriented Programs.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          //{
+          //  src: "/images/projects/project-01/cover-02.jpg",
+          //  alt: "Project image",
+          //  width: 16,
+          //  height: 9,
+          //},
+          //{
+          //  src: "/images/projects/project-01/cover-03.jpg",
+          //  alt: "Project image",
+          //  width: 16,
+          //  height: 9,
+          //},
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Google App Script/Chrome API",
+        description: <>Able to build, test and deplop Google Cloud Apps.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          //{
+          //  src: "/images/projects/project-01/cover-04.jpg",
+          //  alt: "Project image",
+          //  width: 16,
+          //  height: 9,
+          //},
         ],
+      },
+      {
+        title: "C/C++",
+        description: <>Able to write program for embeded systems.
+          <br />Able to write them in OO style if necessary.</>,
+        images:[],
+      },
+      {
+        title: "html & Javascript",
+        description: <>Able to build and deploy static websites.</>,
+        images:[],
+      },
+      {
+        title: "Flutter",
+        description: <>Able to develop mobile apps with Flutter.</>,
+        images:[],
+      },
+      {
+        title: "Haskell",
+        description: <>Have an understanding of functional programming paradigm.</>,
+        images:[],
       },
     ],
   },
